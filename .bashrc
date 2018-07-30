@@ -4,16 +4,17 @@ source ~/.nvm/nvm.sh
 source ~/.profile
 
 # Aliases
-alias rr='cd /vagrant'
-alias rs='rails s Puma'
+alias cr='~/Code/Scripts/cr_selector.rb $1'
 alias json='python -m json.tool'
-alias rerun='bin/testrbl -Itest $1'
-alias xml='xmllint --format -'
+alias nuke="rails db:environment:set RAILS_ENV=test; rails db:drop RAILS_ENV=test; sudo -u postgres createdb -O appuser pointshound_test; rails db:migrate RAILS_ENV=test"
 alias pt='cd /Users/vicente.plata/projects'
 alias ptb='pt; cd travel-rails'
 alias ptf='pt; cd travel-react'
+alias rerun='bin/testrbl -Itest $1'
+alias rr='cd /vagrant'
+alias rs='rails s Puma'
+alias xml='xmllint --format -'
 alias yph='yarn dev --client=ph'
-alias cr='~/Code/Scripts/cr_selector.rb $1'
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
