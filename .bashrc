@@ -4,6 +4,7 @@ source ~/.nvm/nvm.sh
 source ~/.profile
 
 # Aliases
+alias cb='~/Code/Scripts/clean_nonrc_branches.rb'
 alias cr='~/Code/Scripts/cr_selector.rb $1'
 alias json='python -m json.tool'
 alias nuke="rails db:environment:set RAILS_ENV=test; rails db:drop RAILS_ENV=test; sudo -u postgres createdb -O appuser pointshound_test; rails db:migrate RAILS_ENV=test"

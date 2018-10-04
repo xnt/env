@@ -1,13 +1,16 @@
 # Restore with code --install-extension {extension id}
 aaron-bond.better-comments
 akamud.vscode-theme-onedark
+bradymholt.pgformatter
 CoenraadS.bracket-pair-colorizer
 dbaeumer.vscode-eslint
 eamodio.gitlens
 esbenp.prettier-vscode
 groksrc.ruby
 idleberg.hopscotch
-rebornix.Ruby
+mjmcloug.vscode-elixir
+PeterJausovec.vscode-docker
+rebornix.ruby
 robertohuertasm.vscode-icons
 sianglim.slim
 zhuangtongfa.Material-theme

@@ -8,7 +8,9 @@
     "workbench.colorTheme": "Monokai Dimmed",
     "editor.minimap.enabled": false,
     "editor.tabSize": 2,
-    "gitlens.historyExplorer.enabled": true //,
+    "gitlens.historyExplorer.enabled": true,
+    "pgFormatter.spaces": 2
+     //,
     /*"ruby.lint": {
         "reek": true,
         "rubocop": true,
