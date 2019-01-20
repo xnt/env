@@ -15,6 +15,7 @@ alias rerun='bin/testrbl -Itest $1'
 alias rr='cd /vagrant'
 alias rs='rails s Puma'
 alias xml='xmllint --format -'
+alias weather='curl wttr.in'
 alias yph='yarn dev --client=ph'
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
@@ -72,3 +73,7 @@ function parse_git_dirty {
 }
 
 export PS1="\u@${bold}\[\e[37;40m\]\`parse_git_branch\`\[\e[m\]${normal}:\W\\$ "
+
+function cheat() {
+  curl cht.sh/$1
+}
