@@ -74,7 +74,7 @@ function parse_git_dirty {
   fi
 }
 
-export PS1="\u@${bold}\[\e[37;40m\]\`parse_git_branch\`\[\e[m\]${normal}:\W\\$ "
+export PS1="\u@${bold}\[\e[37;40m\]\`parse_git_branch\`\[\e[m\]${normal}:\W${bold}\\$ ${normal}"
 
 function cheat() {
   curl cht.sh/$1
